@@ -1,0 +1,11 @@
+Options to go:
+1. Stay in CRA
+2. Eject from CRA
+
+
+Follow up:
+1. First try staying in CRA:
+1.1 add SCSS by CRA readme
+1.2 add Node backend by CRA readme
+1.3 Node TS?
+1.4 Node REST API
