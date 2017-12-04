@@ -1,0 +1,19 @@
+{
+  "name": "jb-solutions-homework",
+  "version": "0.1.0",
+  "description": "Server for the React client",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server.js",
+    "client": "node start-client.js"
+  },
+  "author": "Marek Zielonkowski",
+  "license": "",
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "soap": "^0.23.0"
+  }
+}
