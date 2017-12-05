@@ -6,9 +6,6 @@ app.set("port", 3001);
 console.log('server port', app.get('port'));
 
 
-//9570745262
-
-
 const err = (err) => {
     console.log({err});
 };

@@ -8,4 +8,6 @@ Follow up:
 1.1 add SCSS by CRA readme
 1.2 add Node backend by CRA readme
 1.3 Node TS?
-1.4 Node REST API
+1.4 Node REST API?
+1.5 Client: bootstrap-sass
+1.6 Node serve static content for production?

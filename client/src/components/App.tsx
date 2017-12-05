@@ -1,5 +1,4 @@
 import * as React from "react";
-import "./App.css";
 import {VatNumberForm} from "./VatNumberForm"
 import Http from "./Http";
 import PersonData, {IPersonData} from "./PersonData";
@@ -19,29 +18,34 @@ export interface IVatNumberState {
     searchHistory: ISearchHistoryElement[]
 }
 
+const initialState: IVatNumberState = {
+    countryCode: "PL",
+    vatNumber: "",
+    personData: {},
+    searchHistory: []
+};
+
 export default class App extends React.Component<any, IVatNumberState> {
     constructor(props: any) {
         super(props);
-
-        this.state = {
-            countryCode: "PL",
-            vatNumber: "",
-            personData: {},
-            searchHistory: []
-        };
-
+        this.state = initialState;
         this.search = this.search.bind(this);
         this.updateState = this.updateState.bind(this);
+        this.resetState = this.resetState.bind(this);
     }
 
-    updateState() {
+    resetState(){
+        this.setState(initialState);
+    }
 
-
+    updateState(value: string) {
+        console.log("updateState", value);
+        this.setState({vatNumber: value});
     }
 
     search(vatNumber: string) {
         const updatedState = {...this.state, vatNumber};
-        updatedState.searchHistory.push({vatNumber, timestamp: Date.now()});
+        updatedState.searchHistory.unshift({vatNumber, timestamp: Date.now()});
         this.setState(updatedState);
 
         delete updatedState.personData;
@@ -51,6 +55,8 @@ export default class App extends React.Component<any, IVatNumberState> {
             console.log(personData);
             this.setState({personData})
         });
+
+        // this.resetState();
     }
 
     componentWillUpdate(nextProps: any, nextState: any) {
@@ -73,12 +79,15 @@ export default class App extends React.Component<any, IVatNumberState> {
             <div className="App">
                 <div className="header">
                     <img src={logo} className="logo" alt="logo"/>
-                    <h2>Welcome to the Vat Number checker</h2>
+                    <h2>Welcome to the Vat Number Checker</h2>
                     <p>Confirmation of the validity of the VAT identification number</p>
+                    <div>Made with <span className="emoji">😀</span> in Gdańsk by Marek Zielonkowski</div>
                 </div>
-                <VatNumberForm search={this.search}></VatNumberForm>
-                <PersonData data={this.state.personData}></PersonData>
-                <SearchHistory list={this.state.searchHistory}></SearchHistory>
+                <div className="row use-margins margins-vertical use-paddings paddings-vertical">
+                    <VatNumberForm updateState={this.updateState} search={this.search} vatNumber={this.state.vatNumber}></VatNumberForm>
+                    <PersonData data={this.state.personData}></PersonData>
+                    <SearchHistory retrieveValue={this.updateState} list={this.state.searchHistory}></SearchHistory>
+                </div>
             </div>
         );
     }

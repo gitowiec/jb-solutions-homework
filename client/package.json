@@ -4,6 +4,7 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2"
@@ -19,8 +20,8 @@
     "react-scripts-ts": "2.8.0"
   },
   "scripts": {
-    "build-css": "node-sass src/**/*.scss -o src/",
-    "watch-css": "npm run build-css && node-sass src/**/*.scss -o src/ --watch --recursive",
+    "build-css": "node-sass-chokidar --source-comments --include-path ./src --include-path ./node_modules src/styles/scss -o src/styles/css",
+    "watch-css": "npm run build-css && node-sass-chokidar --source-comments --include-path ./src --include-path ./node_modules src/styles/scss -o src/styles/css --watch --recursive",
     "start-js": "react-scripts-ts start",
     "start": "npm run watch-css & npm run start-js",
     "start-all": "npm-run-all -p watch-css start-js",
