@@ -2,8 +2,11 @@ const express = require("express");
 const app = express();
 const soap = require('soap');
 const url = 'http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl';
-app.set("port", 3001);
+app.set("port", process.env.PORT || 3001);
 console.log('server port', app.get('port'));
+if (process.env.NODE_ENV === "production") {
+    app.use(express.static("client/build"));
+}
 
 
 const err = (err) => {

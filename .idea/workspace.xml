@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39fa160a-a00e-4e60-9727-c581ca73682f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" afterPath="$PROJECT_DIR$/client/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" afterPath="$PROJECT_DIR$/client/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/App.scss" afterPath="$PROJECT_DIR$/client/src/styles/scss/components/_App.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/App.tsx" afterPath="$PROJECT_DIR$/client/src/components/App.tsx" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/PersonData.tsx" afterPath="$PROJECT_DIR$/client/src/components/PersonData.tsx" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SearchHistory.tsx" afterPath="$PROJECT_DIR$/client/src/components/SearchHistory.tsx" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/VatNumberForm.tsx" afterPath="$PROJECT_DIR$/client/src/components/VatNumberForm.tsx" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.scss" afterPath="$PROJECT_DIR$/client/src/styles/scss/index.scss" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" afterPath="$PROJECT_DIR$/client/src/index.tsx" />
-      <change beforePath="$PROJECT_DIR$/project.txt" afterPath="$PROJECT_DIR$/project.txt" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" afterPath="" />
       <change beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,14 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.411875">
+    <splitter split-orientation="horizontal" split-proportion="0.60125">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+                <state relative-caret-position="122">
+                  <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -51,7 +40,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="project.txt" pinned="false" current-in-tab="true">
+          <file leaf-file-name="project.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/project.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
@@ -61,11 +50,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="85">
+                    <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -75,7 +77,7 @@
             <entry file="file://$PROJECT_DIR$/client/src/components/App.tsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="306">
-                  <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+                  <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -121,7 +123,7 @@
             <entry file="file://$PROJECT_DIR$/client/src/components/VatNumberForm.tsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="158">
-                  <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+                  <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
                   <folding />
                 </state>
               </provider>
@@ -143,7 +145,7 @@
             <entry file="file://$PROJECT_DIR$/client/node_modules/@types/react/index.d.ts">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="434">
-                  <caret line="3527" column="0" lean-forward="true" selection-start-line="3527" selection-start-column="0" selection-end-line="3527" selection-end-column="0" />
+                  <caret line="3527" column="0" lean-forward="false" selection-start-line="3527" selection-start-column="0" selection-end-line="3527" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -153,7 +155,7 @@
             <entry file="file://$PROJECT_DIR$/client/src/styles/scss/components/_PersonData.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
-                  <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+                  <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -211,6 +213,7 @@
       <find>AddFishForm</find>
       <find>Component</find>
       <find>intro</find>
+      <find>vat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -230,7 +233,6 @@
         <option value="$PROJECT_DIR$/client/src/components/Client.tsx" />
         <option value="$PROJECT_DIR$/client/src/components/Http.tsx" />
         <option value="$PROJECT_DIR$/client/src/components/NipForm.tsx" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/client/src/styles/_App.scss" />
         <option value="$PROJECT_DIR$/client/src/styles/index.scss" />
         <option value="$PROJECT_DIR$/client/src/index.tsx" />
@@ -255,6 +257,8 @@
         <option value="$PROJECT_DIR$/client/src/styles/scss/components/_PersonData.scss" />
         <option value="$PROJECT_DIR$/client/src/components/PersonData.tsx" />
         <option value="$PROJECT_DIR$/project.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -366,57 +370,6 @@
               <item name="jb-solutions-homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="jb-solutions-homework" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jb-solutions-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jb-solutions-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jb-solutions-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jb-solutions-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jb-solutions-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jb-solutions-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jb-solutions-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jb-solutions-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jb-solutions-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jb-solutions-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jb-solutions-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jb-solutions-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jb-solutions-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jb-solutions-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -536,12 +489,12 @@
       <workItem from="1512307643576" duration="8923000" />
       <workItem from="1512320178666" duration="22848000" />
       <workItem from="1512422397886" duration="10916000" />
-      <workItem from="1512493799642" duration="13762000" />
+      <workItem from="1512493799642" duration="15087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56449000" />
+    <option name="totallyTimeSpent" value="57774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1440" width="1920" height="1044" extended-state="6" />
@@ -580,11 +533,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/App.css" />
-    <entry file="file://$PROJECT_DIR$/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/tslint.json" />
-    <entry file="file://$PROJECT_DIR$/src/components/App.scss" />
     <entry file="file://$PROJECT_DIR$/src/components/App.tsx" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -623,14 +571,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/styles/App.css" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/App.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -638,14 +578,6 @@
           <folding>
             <element signature="e#0#31#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,14 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-830">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +752,7 @@
     <entry file="file://$PROJECT_DIR$/client/src/components/VatNumberForm.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
-          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -836,7 +760,7 @@
     <entry file="file://$PROJECT_DIR$/client/src/components/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -846,7 +770,7 @@
     <entry file="file://$PROJECT_DIR$/client/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
-          <caret line="3527" column="0" lean-forward="true" selection-start-line="3527" selection-start-column="0" selection-end-line="3527" selection-end-column="0" />
+          <caret line="3527" column="0" lean-forward="false" selection-start-line="3527" selection-start-column="0" selection-end-line="3527" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -854,7 +778,7 @@
     <entry file="file://$PROJECT_DIR$/client/src/styles/scss/components/_PersonData.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -877,11 +801,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/client/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -889,6 +816,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/build/service-worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/build/static/js/main.5f9acf51.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="997">
+          <caret line="0" column="113263" lean-forward="false" selection-start-line="0" selection-start-column="113260" selection-end-line="0" selection-end-column="113263" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/build/static/css/main.6374b6ee.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28079">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
           <folding />
         </state>
       </provider>
